@@ -5,7 +5,7 @@ import unittest
 from Itch41 import *
 
 class Create_Itch41_Messages_Test(unittest.TestCase):
-    """ Tests for creating, parsing and dumping Itch 41 messages """
+    """ Tests for creating, parsing and dumping Itch 4.1 messages """
 
     def test_create_TimeStamp(self):
         # GIVEN
@@ -633,9 +633,6 @@ class Create_Itch41_Messages_From_RawBytes(unittest.TestCase):
         self.assertEqual(      "OCZ", message.Stock                  )
         self.assertEqual(      24.46, message.Price                  )
         self.assertEqual(       1938, message.MatchNum               )
-
-
-
 
 
 if __name__ == "__main__":
