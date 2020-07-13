@@ -1,3 +1,5 @@
+[![Build status](https://travis-ci.org/fpganow/Itch.svg?master)](https://travis-ci.org/fpganow/Itch)
+
 # Itch
 Create and Parse NASDAQ Itch Messages
 
